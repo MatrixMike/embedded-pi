@@ -2,8 +2,10 @@
 CC=arm-none-eabi-gcc
 LD=arm-none-eabi-ld
 CFLAGS=-Wall -g -O0 -nostartfiles 
+CFLAGS+=-mcpu=cortex-m3 -mthumb
 
 LDFLAGS=-Tstm32_f103_gcc.ld -o led.elf 
+#LDFLAGS+=-mcpu=cortex-m3 -mthumb
 #led.o startup_coide.o
 SOURCES=led.c startup_coide.c
 OBJECTS=$(SOURCES:.c=.o)
