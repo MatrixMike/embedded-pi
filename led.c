@@ -1,4 +1,4 @@
-//filename: led.c：
+// filename: led.c：
 // scraped from screen 
 // https://www.element14.com/community/docs/DOC-55219/l/how-to-program-embedded-pi-using-raspberry-pi
 // starting building application 

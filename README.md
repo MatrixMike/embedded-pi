@@ -7,4 +7,6 @@ further on the road to compiling and uploading the code to Embedded Pi
 
 Some info from http://github.com/coocox/embeddedpi.git
 
+# https://gcc.gnu.org/onlinedocs/gcc-6.2.0/gcc/AArch64-Options.html#AArch64-Options
+
 
