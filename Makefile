@@ -1,7 +1,7 @@
 # Tue Nov 08 15:56:43 AEDT 2016 
 CC=arm-none-eabi-gcc
 LD=arm-none-eabi-ld
-CFLAGS=-Wall -g -O0 -nostartfiles -c
+CFLAGS=-Wall -g -O0 -nostartfiles 
 
 LDFLAGS=-Tstm32_f103_gcc.ld -o led.elf 
 #led.o startup_coide.o
