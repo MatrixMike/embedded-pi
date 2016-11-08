@@ -9,4 +9,7 @@ Some info from http://github.com/coocox/embeddedpi.git
 
 # https://gcc.gnu.org/onlinedocs/gcc-6.2.0/gcc/AArch64-Options.html#AArch64-Options
 
+Compiler obtained by: sudo apt-get install gcc-arm-none-eabi
+
+
 
